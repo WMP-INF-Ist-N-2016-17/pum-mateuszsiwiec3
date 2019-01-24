@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="tracks">
+		<item>@string/hard</item>
+		<item>@string/middle</item>
+		<item>@string/easy</item>
+	</array>
+	<array name="menu">
+		<item>@string/ordering</item>
+		<item>@string/editioning</item>
+		<item>@string/deleting</item>
+	</array>
+</resources>

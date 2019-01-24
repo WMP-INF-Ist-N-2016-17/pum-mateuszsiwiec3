@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="welcome_string">Miło nam, że zechciałeś/łaś skorzystać z naszej aplikacji do rezerwacji torów cartingowych!
+        Aby złożyć rezerwację naciśnij przycisk!</string>
+
+    <string name="hard">Trudny</string>
+    <string name="middle">Średni</string>
+    <string name="easy">Ładny</string>
+
+    <string name="order_title">Podsumowanie rezerwacji</string>
+    <string name="settings">Ustawienia</string>
+    <string name="ordering">Jak złożyć zamówienie?</string>
+    <string name="editioning">Jak edytować zamówienia?</string>
+    <string name="deleting">Jak usuwać zamówienia?</string>
+</resources>
