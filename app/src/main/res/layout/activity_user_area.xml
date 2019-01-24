@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gocart"
+    android:background="@drawable/background"
     android:padding="@dimen/activity_horizontal_margin">
 
     <TextView
@@ -28,12 +28,13 @@
 
     <Button
         android:id="@+id/addOrderBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="161dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@color/green"
+        android:background="@color/colorPrimary"
         android:text="Dodaj rezerwację!"
+        android:textColor="@android:color/background_light"
         android:textStyle="bold" />
 
     <TextView
@@ -44,17 +45,19 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
         android:text="TextView"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonShow"
-        android:layout_width="wrap_content"
+        android:layout_width="216dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="148dp"
-        android:background="@color/yellow"
+        android:background="@color/colorPrimary"
         android:text="Pokaż swoje rezerwacje"
+        android:textColor="@android:color/background_light"
         android:textStyle="bold" />
 </RelativeLayout>

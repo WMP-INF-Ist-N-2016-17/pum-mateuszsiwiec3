@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gocart">
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/tvPop"
@@ -22,6 +22,6 @@
         android:gravity="center"
         android:text="Wszystkie pola nie mogą być krótsze niż 3 znaki i dłuższe niż 20 znaków!"
         android:textAllCaps="false"
-        android:textColor="@color/red"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp" />
 </RelativeLayout>
