@@ -212,7 +212,7 @@ public class ShowSingleRecordActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
 
-            PRICE.setText(priceHolder);
+            PRICE.setText("Cena : " + priceHolder);
             TRACK.setText(trackHolder);
             DURATION.setText(durationHolder);
             DATE.setText(dateHolder);
